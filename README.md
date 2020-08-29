@@ -16,7 +16,7 @@ Structured music generation with a three-layer LSTM tree
 
 ## An Example of Generated Score
 
-![generated_score_example](./generated_score_example.png =100x100)
+<img src="./generated_score_example.png" width="200" height="200" />
 
 ## Model Structure
 
