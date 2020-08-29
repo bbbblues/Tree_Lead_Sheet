@@ -16,11 +16,11 @@ Structured music generation with a three-layer LSTM tree
 
 ## An Example of Generated Score
 
-<img src="./generated_score_example.png" width="500" height="1000" />
+<img src="./generated_score_example.png" width="500" height="700" />
 
 ## Model Structure
 
-![model_structure](./model_structure.jpg =100x100)
+<img src="./model_structure.jpg" width="500" height="500" />
 
 [Model Demonstration](./Demo_Demonstration_Jazz_Generation.pdf)
 
@@ -30,7 +30,7 @@ Structured music generation with a three-layer LSTM tree
 
 ## Objective Evaluation Results
 
-![eval](./avg_ir_box.png 100x100)
+<img src="./avg_ir_box.png" width="500" height="500" />
 
 The balance of repetition and variation is a critical property in generated music with a self-similarity structure. We design our objective evaluation based on this ratio, which can be formulated as Information Rate(IR). For a given sequence, it is defined as the mutual information between the present and the past observations.
 
